@@ -16,7 +16,7 @@ h3{
 }
 p{
     line-height: 25px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
     
 .color{
@@ -55,5 +55,25 @@ p{
 }
 .copyright{
     width: 100%;
-    
+}
+.box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 12px 0 10px;
+    box-shadow: 10px 10px 50px gray;
+
+}
+#web-developer{
+    border: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border: 5px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
